@@ -30,9 +30,9 @@ export default function NavBar() {
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className={`${styles.navPills} navbar-nav nav-pills `}  >
-        <li  className="nav-item">
+        {/* <li  className="nav-item">
           <NavLink className={`${styles.navLink} nav-link`}  to="">Home</NavLink>
-        </li>
+        </li> */}
         <li className="nav-item">
           <NavLink className={`${styles.navLink} nav-link`} to="about">about</NavLink>
         </li>

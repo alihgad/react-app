@@ -39,6 +39,10 @@ code {
   color: var(--mid-color) !important;
 }
 
+.form-control:focus {
+      box-shadow: none !important;
+}
+
 
 
 

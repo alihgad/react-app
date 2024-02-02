@@ -14,7 +14,10 @@ for(let i = 0; i < inputs.length; i++) {
     for (let i = 0; i < names.length; i++) {
       if(document.querySelector(`[placeholder = ${names[i]} ]`).value.length > 0) {
         console.log( document.querySelector(`#${names[i]}`).style.top);
-        // document.querySelector(`#${names[i]}`).style.top = '-100px'
+        document.querySelector(`#${names[i]}`).style.top = '-25px'
+      }else{
+        console.log( document.querySelector(`#${names[i]}`).style.top);
+        document.querySelector(`#${names[i]}`).style.top = '0px'
       }
   }})
 
@@ -31,22 +34,22 @@ for(let i = 0; i < inputs.length; i++) {
           <div className="container">
           <SectionHeader h1={'contact section'}/>
           <form className=' mx-auto mt-5' action="">
-              <div className={`${styels.text} mx-auto mb-4 position-relative`}>
-                <input className={`form-control z-1 position-relative`} type="text" placeholder="userName"  />
+              <div className={`${styels.text} mx-auto pb-1 mb-4 position-relative`}>
+                <input className={`form-control z-1 position-relative`} type="text" placeholder="userName" onInput={console.log("inputed")} />
                 <small id='userName' className={`${styels.textMain} position-absolute `}>userName :</small>
               </div>   
 
-              <div className={`${styels.text} mx-auto mb-4 position-relative`}>
+              <div className={`${styels.text} mx-auto pb-1 mb-4 position-relative`}>
                 <input className={`form-control z-1 position-relative`} type="text" placeholder="userAge"  />
                 <small id='userAge' className={`${styels.textMain} position-absolute `}>userAge :</small>
               </div> 
 
-              <div className={`${styels.text} mx-auto mb-4 position-relative`}>
+              <div className={`${styels.text} mx-auto pb-1 mb-4 position-relative`}>
                 <input className={`form-control z-1 position-relative`} type="text" placeholder="userEmail"  />
                 <small id='userEmail' className={`${styels.textMain} position-absolute `}>userEmail :</small>
               </div> 
 
-              <div className={`${styels.text} mx-auto mb-4 position-relative`}>
+              <div className={`${styels.text} mx-auto pb-1 mb-4 position-relative`}>
                 <input className={`form-control z-1 position-relative`} type="text" placeholder="userPassword"  />
                 <small id='userPassword' className={`${styels.textMain} position-absolute `}>userPassword :</small>
               </div> 
