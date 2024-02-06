@@ -33,7 +33,7 @@ for(let i = 0; i < inputs.length; i++) {
         <section className='py-5'>
           <div className="container">
           <SectionHeader h1={'contact section'}/>
-          <form className=' mx-auto mt-5' action="">
+          <form  className=' mx-auto mt-5' action="">
               <div className={`${styels.text} mx-auto pb-1 mb-4 position-relative`}>
                 <input className={`form-control z-1 position-relative`} type="text" placeholder="userName" onInput={console.log("inputed")} />
                 <small id='userName' className={`${styels.textMain} position-absolute `}>userName :</small>
@@ -55,7 +55,7 @@ for(let i = 0; i < inputs.length; i++) {
               </div> 
 
               <div className={`${styels.text} mx-auto`}>
-              <button type='submit' className='btn bg-main text-white  mx-auto d-block'> submit </button>
+              <button  className='btn bg-main text-white  mx-auto d-block' > submit </button>
               </div>
 
           </form>

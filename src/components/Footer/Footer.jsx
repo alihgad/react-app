@@ -11,8 +11,8 @@ export default function Footer() {
 
         <div className="col  py-4">
           <h3 className='text-uppercase'>location</h3>
-          <p className='text-capitalize'>2215 john daniel drive</p>
-          <p className='text-capitalize'>Clark, MO 65243</p>
+          <p className='text-capitalize mb-1'>alexandrea , agami</p>
+          <p className='text-capitalize'>egypt , alex</p>
         </div>
 
         <div className="col py-4">
@@ -21,24 +21,32 @@ export default function Footer() {
               <div className="container">
                 <div className="row justify-content-center d-flex row-cols-4  mx-auto">
                     <div className={`${styels.icon}`}>
-                      <div className={`${styels.inner}`}>
-                      <i class="fa-brands fa-facebook"></i>
-                      </div>
+                      <a href="https://www.facebook.com/3LI7ASSAN1/" target="_blank" rel="noopener noreferrer" className='text-decoration-none text text-white'>
+                        <div className={`${styels.inner}`}>
+                        <i class="fa-brands fa-facebook"></i>
+                        </div>
+                      </a>  
                     </div>
                     <div className={`${styels.icon}`}>
-                      <div className={`${styels.inner}`}>
-                      <i className='fa-brands fa-twitter'></i>
-                      </div>
+                      <a href="https://twitter.com/Ali_Hassan_gad" target="_blank" rel="noopener noreferrer" className='text-decoration-none text text-white'>
+                        <div className={`${styels.inner}`}>
+                        <i className='fa-brands fa-twitter'></i>
+                        </div>
+                      </a>
                     </div>
                     <div className={`${styels.icon}`}>
-                      <div className={`${styels.inner}`}>
-                      <i className='fa-brands fa-linkedin-in '></i>
-                      </div>
+                      <a href="https://www.linkedin.com/in/ali-hassan-gad/" target="_blank" rel="noopener noreferrer" className='text-decoration-none text text-white'>
+                        <div className={`${styels.inner}`}>
+                        <i className='fa-brands fa-linkedin-in '></i>
+                        </div>
+                      </a>
                     </div>
                     <div className={`${styels.icon}`}>
+                    <a href="https://alihgad.github.io/portoflio/" target="_blank" rel="noopener noreferrer" className='text-decoration-none text text-white'>
                       <div className={`${styels.inner}`}>
                       <i className='fa-solid fa-globe'></i>
                       </div>
+                    </a>
                     </div>
                 </div>
               </div>
@@ -53,7 +61,7 @@ export default function Footer() {
     </div>
   </div>
 
-  <div className='py-4 text-center text-white bg-dark text-capitalize'>copyright &copy; your website 2024</div>
+  <div className='py-4 text-center text-white bg-dark text-capitalize'>copyright &copy; ali hassan 2024</div>
 
   </footer>
 

@@ -24,15 +24,12 @@ export default function NavBar() {
     return (<>
 <nav className="navbar navbar-expand-lg bg-mid fixed-top text-uppercase py-4 transition ">
   <div className="container">
-    <Link className="navbar-brand text-white text-uppercase fw-bold fs-2" to="#">start framework</Link>
+    <Link className="navbar-brand text-white text-uppercase fw-bold fs-2" to="">ali hassan</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className={`${styles.navPills} navbar-nav nav-pills `}  >
-        {/* <li  className="nav-item">
-          <NavLink className={`${styles.navLink} nav-link`}  to="">Home</NavLink>
-        </li> */}
         <li className="nav-item">
           <NavLink className={`${styles.navLink} nav-link`} to="about">about</NavLink>
         </li>
