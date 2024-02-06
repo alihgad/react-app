@@ -54,6 +54,10 @@ for(let i = 0; i < inputs.length; i++) {
                 <small id='userPassword' className={`${styels.textMain} position-absolute `}>userPassword :</small>
               </div> 
 
+              <div className={`${styels.text} mx-auto`}>
+              <button type='submit' className='btn bg-main text-white  mx-auto d-block'> submit </button>
+              </div>
+
           </form>
           </div>
         </section>        

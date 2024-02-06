@@ -32,7 +32,7 @@ code {
 }
 
 .bg-main{
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
 }
 
 .text-mid{
